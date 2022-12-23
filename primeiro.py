@@ -11,7 +11,7 @@ sleep(0.3)
 
 while True:
 
-    operator = input(f'What kind of operator will you use {name}? ( + , - , * , / , ):')
+    operator = input(f'What kind of operator will you use {name}? ( + , - , * , / ):')
     sleep(0.3)
 
     while len(operator) != 1 or operator not in '+-*/':
